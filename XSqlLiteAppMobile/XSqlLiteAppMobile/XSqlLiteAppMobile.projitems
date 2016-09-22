@@ -14,6 +14,10 @@
     <Compile Include="$(MSBuildThisFileDirectory)Classes\Employee.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Classes\EmployeeCell.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Classes\IConfig.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\EditPage.xaml.cs">
+      <DependentUpon>EditPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Pages\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -21,11 +25,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="$(MSBuildThisFileDirectory)GettingStarted.Xamarin" />
+    <None Include="$(MSBuildThisFileDirectory)Other\Demo Xamarin Divisas II.docx" />
+    <None Include="$(MSBuildThisFileDirectory)Other\Democracy API.docx" />
+    <None Include="$(MSBuildThisFileDirectory)Other\Democracy APP.docx" />
+    <None Include="$(MSBuildThisFileDirectory)Other\Guia ejemplo de SQLite en Xamarin.Forms (Ver 2) (1).docx" />
+    <None Include="$(MSBuildThisFileDirectory)Other\Guia ejemplo de SQLite en Xamarin.Forms (Ver 2).docx" />
+    <None Include="$(MSBuildThisFileDirectory)Other\Guia ejemplo de SQLite en Xamarin.Forms (Ver 3).docx" />
+    <None Include="$(MSBuildThisFileDirectory)Other\Modelos Orders.docx" />
+    <None Include="$(MSBuildThisFileDirectory)Other\MVC.docx" />
+    <None Include="$(MSBuildThisFileDirectory)Other\Notes.docx" />
+    <None Include="$(MSBuildThisFileDirectory)Other\Web API And Publish.docx" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\HomePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Pages\EditPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)Other\DER Ecommerce.png" />
   </ItemGroup>
 </Project>

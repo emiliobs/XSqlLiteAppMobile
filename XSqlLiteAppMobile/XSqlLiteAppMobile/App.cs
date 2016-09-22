@@ -9,8 +9,8 @@ namespace XSqlLiteAppMobile
         public App()
         {
             // The root page of your application
-            //MainPage = new NavigationPage(new HomePage());
-            MainPage = new HomePage();
+            MainPage = new NavigationPage(new HomePage());
+            //MainPage = new HomePage();
         }
 
 

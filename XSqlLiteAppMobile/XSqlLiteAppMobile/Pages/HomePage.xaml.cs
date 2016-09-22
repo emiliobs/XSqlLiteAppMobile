@@ -23,6 +23,14 @@ namespace XSqlLiteAppMobile.Pages
             employeesListView.RowHeight = 70;
 
             addButton.Clicked += AddButton_Clicked;
+
+            employeesListView.ItemSelected += EmployeesListView_ItemSelected;
+
+        }
+
+        private async void EmployeesListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            await Navigation.PushAsync(new EditPage((Employee)e.SelectedItem));
         }
 
         private async void AddButton_Clicked(object sender, EventArgs e)
