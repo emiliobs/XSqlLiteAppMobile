@@ -23,6 +23,13 @@ namespace XSqlLiteAppMobile.Classes
             }
         }
 
+
+        public override string ToString()
+        {
+            return $"{EmployeeId} {FullName}";
+        }
+
+
         public override int GetHashCode()
         {
             return EmployeeId;

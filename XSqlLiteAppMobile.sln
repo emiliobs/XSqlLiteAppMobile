@@ -17,9 +17,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSqlLiteAppMobile.Windows",
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		XSqlLiteAppMobile\XSqlLiteAppMobile\XSqlLiteAppMobile.projitems*{09f64433-a9a1-41d5-9b20-acb4904f90e3}*SharedItemsImports = 4
+		XSqlLiteAppMobile\XSqlLiteAppMobile\XSqlLiteAppMobile.projitems*{1e303b96-4c6e-4c24-bb76-b30768178001}*SharedItemsImports = 4
 		XSqlLiteAppMobile\XSqlLiteAppMobile\XSqlLiteAppMobile.projitems*{6e40095f-4b28-4443-bd2d-be5f12dc2148}*SharedItemsImports = 4
 		XSqlLiteAppMobile\XSqlLiteAppMobile\XSqlLiteAppMobile.projitems*{7d0ee37a-47e8-43e1-b623-5d37b0552c72}*SharedItemsImports = 4
 		XSqlLiteAppMobile\XSqlLiteAppMobile\XSqlLiteAppMobile.projitems*{9e281810-6567-4064-a045-f738473d3b70}*SharedItemsImports = 13
+		XSqlLiteAppMobile\XSqlLiteAppMobile\XSqlLiteAppMobile.projitems*{f2b94702-8f3e-41e7-935c-111b1c06e089}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

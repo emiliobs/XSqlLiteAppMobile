@@ -12,6 +12,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Classes\DataAccess.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Classes\Employee.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Classes\EmployeeCell.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Classes\IConfig.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\HomePage.xaml.cs">
       <DependentUpon>HomePage.xaml</DependentUpon>
